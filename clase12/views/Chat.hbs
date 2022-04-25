@@ -1,0 +1,20 @@
+{{> nav}}
+<div class="container">
+    <h1 class="text-center">Chat online</h1><br>
+    <form class="mb-5" onsubmit="sendMensaje(this)">
+            <div class="mb-3">
+                <label for="mail" class="form-label">Mail</label>
+                <input type="mail" id="mail" class="form-control" placeholder="tu@mail.com">
+            </div>
+            <div class="mb-3">
+                <label for="thumbnail" class="form-label">Mensaje</label>
+                <input type="text" id="mensaje" class="form-control" placeholder="Mensaje">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    <h3>Mensajes</h3>
+    <hr />
+    <div class="container chat" id="chatContainer">
+
+    </div>
+</div>
